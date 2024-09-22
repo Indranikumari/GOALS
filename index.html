@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay Focused & Motivated</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>YOU CAN </h1>
+        <p>AAB NHI TOH KAB??</p>
+    </header>
+
+
+<section id="date-section">
+    <div id="currentDateTime">
+        <div id="currentDate"></div>
+        <div id="currentTime"></div>
+    </div>
+</section>
+
+
+<section id="quote-section">
+    <h2>Quote of the Day</h2>
+    <div id="dailyQuote"></div>
+</section>
+
+<div class="button-container">
+    <button class="styled-button" onclick="prevQuote()">&#10094; Previous Quote</button>
+    <button class="styled-button" onclick="nextQuote()">Next Quote &#10095;</button>
+</div>
+
+    <section id="goals-section">
+        <h2>Your Goals</h2>
+        <ul id="goalList"></ul>
+        <input type="text" id="goalInput" placeholder="Add a new goal">
+        <button id="addGoalBtn">Add Goal</button>
+    </section>
+
+<section id="timer-section">
+    <h2>Focus Timer</h2>
+    <p>Start focusing on your task:</p>
+    <button id="startBtn" class="focus-btn">Start Focus</button>
+    <button id="stopBtn" class="focus-btn" disabled>Stop Focus</button>
+    <br><br>
+    <button id="restartBtn" class="focus-btn" disabled>Restart Focus</button>
+    <p class="time-focused">Time focused: <span id="focusTime">00:00:00</span></p>
+</section>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+    <footer>
+        <p>Never Give Up. Your Future Self is Counting on You!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
